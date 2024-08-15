@@ -1,0 +1,78 @@
+/* #rotating-plate {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: rotate 5s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+  }
+  
+  @keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+  .moved {
+    top: 20%; b_one-pre
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+   */
+   /* .moving-image {
+    position: fixed;
+    z-index: 10;
+    width:300px !important;
+}
+
+.about-image {
+    position: relative;
+    z-index: 10;
+} */
+
+
+
+
+.b_one-pre {
+  color: #ffffffe8;
+  font-size: 22px;
+  line-height: inherit;
+}
+
+@media only screen and (min-width: 992px) {
+  .b_one-pre {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 992px) {
+.rts-banner-main-area-swiper.banner-seven .falafelRoot img {
+  position: relative;
+  animation: scaleImage 1s infinite alternate;
+}
+@keyframes scaleImage {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .rts-banner-main-area-swiper.banner-seven {
+    background: url(../bgIndex.png), url(../bgIndex2.png);
+    height: 92vh;
+    background-position: 77% 5%, center center;
+    background-size: 75%, cover;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    z-index: 1;
+    /* animation: shrink 15s infinite alternate; */
+  }
+}
