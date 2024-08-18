@@ -21028,6 +21028,7 @@ p.desc {
   left: 0;
   top: 10px;
   animation: jump-vertical 12s linear infinite;
+  ops
 }
 @media (max-width: 768px) {
   .rts-menu-area .banner-one-wrapper .shape-1 {
