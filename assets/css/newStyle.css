@@ -35,7 +35,9 @@
     z-index: 10;
 } */
 
-
+.Falafel_img{
+  
+}
 
 
 .b_one-pre {
@@ -48,24 +50,38 @@
   .b_one-pre {
     font-size: 30px;
   }
+  
 }
 @media only screen and (max-width: 992px) {
 .rts-banner-main-area-swiper.banner-seven .falafelRoot img {
   position: relative;
-  animation: scaleImage 1s infinite alternate;
+  animation: rotateItimg 20s infinite linear;
+  
+}
+.realImgMd{
+  
 }
 @keyframes scaleImage {
   0% {
     transform: scale(1);
   }
   100% {
-    transform: scale(1.1);
+    transform: scale(1.09);
   }
 }
 }
 
-@media only screen and (min-width: 992px) {
-  .rts-banner-main-area-swiper.banner-seven {
+@keyframes rotateItimg {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* @media only screen and (min-width: 992px) {
+  .rts-banner-main-area-swiper1.banner-seven1 {
     background: url(../bgIndex.png), url(../bgIndex2.png);
     height: 92vh;
     background-position: 77% 5%, center center;
@@ -73,6 +89,14 @@
     background-repeat: no-repeat, no-repeat;
     position: relative;
     z-index: 1;
-    /* animation: shrink 15s infinite alternate; */
+    animation: shrink 15s infinite alternate;
   }
-}
+  @keyframes shrink {
+    0% {
+      background-size: 75%;
+    }
+    100% {
+      background-size: 80%;
+    }
+  }
+} */
