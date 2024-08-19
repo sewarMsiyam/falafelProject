@@ -22448,7 +22448,7 @@ p.desc {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 25px;
-  transition: all 0.2s;
+  transition: all 0.1s;
 }
 .rts-menu-area7 .menu-area-top .menu-area-top-inner .menu-item .content-inner .content-wrapper li:hover .content .p-title a {
   background-position: 0% 100%;
@@ -29321,4 +29321,20 @@ p.desc {
   display: flex;
     gap: 41px;
     padding: 0px 40px;
+}
+
+.rts-banner-main-area-swiper.banner-seven {
+  background: url(../bgIndex2.png) ;
+   height: 92vh;
+   background-position:  center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   z-index: -1;
+   animation: scaleBackground 5s infinite alternate ease-in-out;
+ }
+ .button-area-banner .btn-secondary {
+  color: #c0cf34;
+  background: none;
+  border: 1px solid #c0cf34;
 }
