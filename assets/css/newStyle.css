@@ -207,3 +207,7 @@
   }
 }
 
+.shapeposition-2 {
+  z-index: -1;
+  animation: jump-horizontal 12s linear infinite;
+}
