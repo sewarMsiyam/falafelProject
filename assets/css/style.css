@@ -8129,6 +8129,9 @@ ol ul {
   .mb_sm--0 {
     margin-bottom: 0;
   }
+  .rts-breadcrumb-shadow {
+      padding: 100px 0 100px 0 !important;
+  }
 }
 @media only screen and (max-width: 575px) {
   .ptb_mobile--5 {
@@ -18161,7 +18164,7 @@ edit .quantity-edit button {
   width: 75%;
   z-index:1;
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 992px) {
   .rts-about-area .about-one-img .thumbnail-2 {
     opacity: 0.19;
     top: 20px;
@@ -18202,7 +18205,7 @@ edit .quantity-edit button {
   border: 10px solid #fff;
   animation: rotateIt-2 infinite 30s linear;
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 992px) {
   .rts-about-area .about-one-img .thumbnail-2 img {
     width: 75%;
   }
@@ -20630,12 +20633,18 @@ p.desc {
 }
 
 .rts-breadcrumb-area {
-  background: url(../images/breadcrumbs/about.webp);
+  background: url(../bgIndex2.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px 0 150px 0;
   overflow: hidden;
+  animation:scaleBackground2 5s infinite alternate ease-in-out;
+}
+.rts-breadcrumb-shadow {
+  background: #0000009c;
+    width: 100%;
+    height: 100%;
+    padding: 150px 0 150px 0;
 }
 .rts-breadcrumb-area .breadcrumb-inner .banner-shape-area {
   display: flex;
@@ -29323,7 +29332,17 @@ p.desc {
 }
 
 
-
+@keyframes scaleBackground2 {
+  0% {
+    background-size: 130%;
+  }
+  50% {
+    background-size: 135%;
+  }
+  100% {
+    background-size: 140%;
+  }
+}
 /* 
 .about-one-img{
   display:none;
@@ -29360,7 +29379,12 @@ p.desc {
   margin:0 !important;
 }
 }
-
+.shape-vec {
+  position: absolute;
+    left: -175px;
+    bottom: 70px;
+    animation: jump-vertical 12s linear infinite;
+}
 
 .rts-banner-main-area-swiper.banner-seven {
   background: url(../bgIndex2.png) ;
