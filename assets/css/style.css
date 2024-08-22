@@ -20307,7 +20307,7 @@ p.desc {
 
 @media (max-width: 992px) {
   .rts-banner-main-area-swiper.banner-seven {
-    animation: none;    
+    animation: none !important;    
   }
 }
 .rts-banner-main-area-swiper.banner-seven::after {
@@ -29113,6 +29113,19 @@ p.desc {
   .menu-wrapper-footer-row {
     display: none;
   }
+  .single-footer-wized-one.gallery .gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    padding: 7px 3px;
+    max-width: 48%;
+  }
+  .single-footer-wized-one.gallery .gallery-item img {
+    width: 100%;
+    height:160px !important;
+    transition: 0.8s ease-in-out;
+  }
 }
 .menu-wrapper-footer-row .single-menu:first-child a {
   border-left: 1px solid #252222;
@@ -29336,6 +29349,18 @@ p.desc {
     gap: 41px;
     padding: 0px 40px;
 }
+
+@media only screen and (max-width: 992px) {
+  .smoll-larg {
+    display: flex;
+    gap: 30px;
+    padding: 0px 30px;
+}
+.content-wrapper{
+  margin:0 !important;
+}
+}
+
 
 .rts-banner-main-area-swiper.banner-seven {
   background: url(../bgIndex2.png) ;
